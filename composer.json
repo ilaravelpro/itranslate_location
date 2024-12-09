@@ -1,0 +1,36 @@
+{
+    "name": "ilaravel/itranslate_location",
+    "description": "iLaravel iTranslateLocation",
+    "keywords": ["laravel","translate", "languages"],
+    "homepage": "https://ilaravel.iamir.net/packages/itranslate_location",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "iamirnet",
+            "email" : "me@iamir.net",
+            "homepage": "https://iamir.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "iLaravel\\iTranslateLocation\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "iLaravel\\iTranslateLocation\\Providers\\AppServiceProvider",
+                "iLaravel\\iTranslateLocation\\Providers\\RouteServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

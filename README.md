@@ -1,2 +1,2 @@
 # itranslate_location
-iTranslateLocation
+iTranslateLocation Pro
