@@ -1,0 +1,2 @@
+# itranslate_location
+iTranslateLocation
